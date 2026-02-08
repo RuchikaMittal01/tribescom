@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import ctaBg from "@/assets/cta-bg.jpg";
+import expertiseEvents from "@/assets/expertise-events.jpg";
 
 const CTASection = () => {
   const ref = useRef(null);
@@ -13,7 +13,7 @@ const CTASection = () => {
         {/* Left: Image */}
         <div className="relative h-64 lg:h-auto">
           <img 
-            src={ctaBg} 
+            src={expertiseEvents} 
             alt="Corporate conference event" 
             className="absolute inset-0 h-full w-full object-cover"
           />

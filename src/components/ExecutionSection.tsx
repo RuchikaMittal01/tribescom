@@ -64,8 +64,8 @@ const ExecutionSection = () => {
             <div className="absolute -inset-4 bg-gradient-to-br from-primary/10 to-transparent rounded-2xl blur-xl" />
             <img
               src={executionBg}
-              alt="Behind the scenes event execution"
-              className="relative w-full rounded-lg object-cover shadow-xl aspect-[4/3]"
+              alt="Team group photo at corporate event"
+              className="relative w-full rounded-lg object-contain shadow-xl"
             />
           </motion.div>
         </div>

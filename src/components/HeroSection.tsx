@@ -23,7 +23,7 @@ const HeroSection = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <img src={tribesLogo} alt="Tribes Communication" className="h-8 w-auto brightness-0 invert" />
+          <img src={tribesLogo} alt="Tribes Communication" className="h-10 w-auto" />
         </motion.div>
 
         {/* Hero text */}

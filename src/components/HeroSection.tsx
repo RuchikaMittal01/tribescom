@@ -43,7 +43,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
           >
-            Experiences that move people, not just brands.
+            Experiences that <span className="text-primary not-italic font-medium">move people</span>, not just brands.
           </motion.p>
 
           <motion.p

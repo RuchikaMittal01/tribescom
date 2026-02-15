@@ -32,7 +32,7 @@ const HeroSection = () => {
           <motion.img
             src={latitudeXpLogo}
             alt="Latitude XP - Design & Experiences"
-            className="h-auto w-full max-w-md sm:max-w-lg lg:max-w-xl"
+            className="h-auto w-full max-w-[200px] sm:max-w-[260px] lg:max-w-xs"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.4 }}

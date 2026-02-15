@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import aboutLogo from "@/assets/latitude-xp-about-logo.png";
+import executionBg from "@/assets/execution-bg.jpg";
 
 const ExecutionSection = () => {
   const ref = useRef(null);
@@ -62,13 +62,11 @@ const ExecutionSection = () => {
             className="relative"
           >
             <div className="absolute -inset-4 bg-gradient-to-br from-primary/10 to-transparent rounded-2xl blur-xl" />
-            <div className="relative w-full rounded-lg bg-background shadow-xl flex items-center justify-center py-16 px-8 border border-border">
-              <img
-                src={aboutLogo}
-                alt="Latitude XP - Design & Experiences"
-                className="w-full max-w-xs sm:max-w-sm object-contain"
-              />
-            </div>
+            <img
+              src={executionBg}
+              alt="Modern Indian corporate office interior"
+              className="relative w-full rounded-lg object-contain shadow-xl"
+            />
           </motion.div>
         </div>
       </div>
